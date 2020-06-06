@@ -51,7 +51,8 @@ namespace OrderEntry_v2.Entities
         {
             return "Product: " + Product.Name + " "
                 + "Quantity: " + Quantity + " "
-                + "Price: " + Product.Price.ToString("F2")
+                + //"Price: " + Product.Price.ToString("F2")
+                "Price: " + SubTotal().ToString("F2")
                 + "\n";
         }
     }
