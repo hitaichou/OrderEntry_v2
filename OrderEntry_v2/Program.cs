@@ -60,10 +60,6 @@ namespace OrderEntry_v2
             Console.WriteLine("Order Items:");
             Console.WriteLine(order);
             Console.WriteLine("Total Price: " + order.Total().ToString("F2"));
-
-
-
-
         }
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OrderEntry_v2.Entities.Enums
+﻿namespace OrderEntry_v2.Entities.Enums
 {
     enum OrderStatus : int
     {
